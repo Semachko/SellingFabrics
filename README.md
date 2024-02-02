@@ -13,7 +13,7 @@ ____
 - C#, WinForms
 - SSMS (SQL Server Management Studio)
 - ADO.NET, npgsql
-- ReportView
+- ReportViewer
 
 ____
 
