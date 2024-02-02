@@ -33,3 +33,7 @@ ____
 ### *The relevant employee is one way or another faced with declaring what is happening. For example, a director must conclude contracts, a warehouse worker must declare new fabrics, an accountant must create invoices. The corresponding roles have the functionality they need.*
 
 ____
+
+### So the application allows you to track and declare the purchase of fabrics, their correct transportation, storage and sale with the preparation of documents for the tax authorities.
+
+
