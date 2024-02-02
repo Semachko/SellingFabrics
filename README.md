@@ -12,7 +12,7 @@ ____
 ## Technologies and frameworks used:
 - C#, WinForms
 - SSMS (SQL Server Management Studio)
-- ADO.NET, npgsql
+- ADO.NET, Data Provider
 - ReportViewer
 
 ____
