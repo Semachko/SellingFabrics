@@ -11,7 +11,7 @@ ____
 
 ![image](https://github.com/Semachko/SellingFabrics/assets/124003664/82951dd6-4a7e-4f0b-a2bf-086bb8358923)
 
-### *The database was hosted on the PostgresKL server. For the corresponding positions in the company were created their own database roles with their own grants (Director, Accounter, Worker).*
+### *For the corresponding positions in the company were created their own database roles with their own grants (Director, Accounter, Worker).*
 
 ____
 # **Reports**
