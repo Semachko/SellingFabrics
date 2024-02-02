@@ -48,4 +48,8 @@ ____
 
 ### So the application allows you to track and declare the purchase of fabrics, their correct transportation, storage and sale with the preparation of documents for the tax authorities.
 
+___
+# **Details:**
+- To create reports, i used the ReportViewer package.
+- The database was controlled by SSMS (SQL Server Management Studio).
 
