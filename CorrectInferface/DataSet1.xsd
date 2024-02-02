@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="FabricsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FabricsConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CorrectInferface.Properties.Settings.GlobalReference.Default.FabricsConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AllCheckFacturesTableAdapter" GeneratorDataComponentClassName="AllCheckFacturesTableAdapter" Name="AllCheckFactures" UserDataComponentName="AllCheckFacturesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FabricsConnectionString (Settings)" DbObjectName="Fabrics.dbo.AllCheckFactures" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT date_check, code_check_facture, name_object, INN, vender_code, color, amount_check FROM dbo.AllCheckFactures</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="date_check" DataSetColumn="date_check" />
+              <Mapping SourceColumn="code_check_facture" DataSetColumn="code_check_facture" />
+              <Mapping SourceColumn="name_object" DataSetColumn="name_object" />
+              <Mapping SourceColumn="INN" DataSetColumn="INN" />
+              <Mapping SourceColumn="vender_code" DataSetColumn="vender_code" />
+              <Mapping SourceColumn="color" DataSetColumn="color" />
+              <Mapping SourceColumn="amount_check" DataSetColumn="amount_check" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AllClientAndFactoryTableAdapter" GeneratorDataComponentClassName="AllClientAndFactoryTableAdapter" Name="AllClientAndFactory" UserDataComponentName="AllClientAndFactoryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FabricsConnectionString (Settings)" DbObjectName="Fabrics.dbo.AllClientAndFactory" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT type_object, name_object, code_object, INN, bank_account, adress, сontact_information FROM dbo.AllClientAndFactory</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="type_object" DataSetColumn="type_object" />
+              <Mapping SourceColumn="name_object" DataSetColumn="name_object" />
+              <Mapping SourceColumn="code_object" DataSetColumn="code_object" />
+              <Mapping SourceColumn="INN" DataSetColumn="INN" />
+              <Mapping SourceColumn="bank_account" DataSetColumn="bank_account" />
+              <Mapping SourceColumn="adress" DataSetColumn="adress" />
+              <Mapping SourceColumn="сontact_information" DataSetColumn="сontact_information" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AllContractSaleTableAdapter" GeneratorDataComponentClassName="AllContractSaleTableAdapter" Name="AllContractSale" UserDataComponentName="AllContractSaleTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FabricsConnectionString (Settings)" DbObjectName="Fabrics.dbo.AllContractSale" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT code_contract, name_object, price_contract, validity, subject_contract FROM dbo.AllContractSale</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="code_contract" DataSetColumn="code_contract" />
+              <Mapping SourceColumn="name_object" DataSetColumn="name_object" />
+              <Mapping SourceColumn="price_contract" DataSetColumn="price_contract" />
+              <Mapping SourceColumn="validity" DataSetColumn="validity" />
+              <Mapping SourceColumn="subject_contract" DataSetColumn="subject_contract" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AllExporterAndFactoryTableAdapter" GeneratorDataComponentClassName="AllExporterAndFactoryTableAdapter" Name="AllExporterAndFactory" UserDataComponentName="AllExporterAndFactoryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FabricsConnectionString (Settings)" DbObjectName="Fabrics.dbo.AllExporterAndFactory" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT type_object, name_object, code_object, INN, bank_account, adress, сontact_information FROM dbo.AllExporterAndFactory</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="type_object" DataSetColumn="type_object" />
+              <Mapping SourceColumn="name_object" DataSetColumn="name_object" />
+              <Mapping SourceColumn="code_object" DataSetColumn="code_object" />
+              <Mapping SourceColumn="INN" DataSetColumn="INN" />
+              <Mapping SourceColumn="bank_account" DataSetColumn="bank_account" />
+              <Mapping SourceColumn="adress" DataSetColumn="adress" />
+              <Mapping SourceColumn="сontact_information" DataSetColumn="сontact_information" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AllInvoiceTableAdapter" GeneratorDataComponentClassName="AllInvoiceTableAdapter" Name="AllInvoice" UserDataComponentName="AllInvoiceTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FabricsConnectionString (Settings)" DbObjectName="Fabrics.dbo.AllInvoice" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT code_invoice, row_invoice, UKTZED, vender_code, color, amount, price, date_invoice FROM dbo.AllInvoice</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="code_invoice" DataSetColumn="code_invoice" />
+              <Mapping SourceColumn="row_invoice" DataSetColumn="row_invoice" />
+              <Mapping SourceColumn="UKTZED" DataSetColumn="UKTZED" />
+              <Mapping SourceColumn="vender_code" DataSetColumn="vender_code" />
+              <Mapping SourceColumn="color" DataSetColumn="color" />
+              <Mapping SourceColumn="amount" DataSetColumn="amount" />
+              <Mapping SourceColumn="price" DataSetColumn="price" />
+              <Mapping SourceColumn="date_invoice" DataSetColumn="date_invoice" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AllTextileTableAdapter" GeneratorDataComponentClassName="AllTextileTableAdapter" Name="AllTextile" UserDataComponentName="AllTextileTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FabricsConnectionString (Settings)" DbObjectName="Fabrics.dbo.AllTextile" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT vender_code, color, amount_storage, price_storage, density, composition, country_manufacturer FROM dbo.AllTextile</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="vender_code" DataSetColumn="vender_code" />
+              <Mapping SourceColumn="color" DataSetColumn="color" />
+              <Mapping SourceColumn="amount_storage" DataSetColumn="amount_storage" />
+              <Mapping SourceColumn="price_storage" DataSetColumn="price_storage" />
+              <Mapping SourceColumn="density" DataSetColumn="density" />
+              <Mapping SourceColumn="composition" DataSetColumn="composition" />
+              <Mapping SourceColumn="country_manufacturer" DataSetColumn="country_manufacturer" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AllCheckFactures" msprop:Generator_RowEvHandlerName="AllCheckFacturesRowChangeEventHandler" msprop:Generator_RowDeletedName="AllCheckFacturesRowDeleted" msprop:Generator_RowDeletingName="AllCheckFacturesRowDeleting" msprop:Generator_RowEvArgName="AllCheckFacturesRowChangeEvent" msprop:Generator_TablePropName="AllCheckFactures" msprop:Generator_RowChangedName="AllCheckFacturesRowChanged" msprop:Generator_RowChangingName="AllCheckFacturesRowChanging" msprop:Generator_TableClassName="AllCheckFacturesDataTable" msprop:Generator_RowClassName="AllCheckFacturesRow" msprop:Generator_TableVarName="tableAllCheckFactures" msprop:Generator_UserTableName="AllCheckFactures">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date_check" msprop:Generator_ColumnPropNameInRow="date_check" msprop:Generator_ColumnPropNameInTable="date_checkColumn" msprop:Generator_ColumnVarNameInTable="columndate_check" msprop:Generator_UserColumnName="date_check" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="code_check_facture" msprop:Generator_ColumnPropNameInRow="code_check_facture" msprop:Generator_ColumnPropNameInTable="code_check_factureColumn" msprop:Generator_ColumnVarNameInTable="columncode_check_facture" msprop:Generator_UserColumnName="code_check_facture" type="xs:int" />
+              <xs:element name="name_object" msprop:Generator_ColumnPropNameInRow="name_object" msprop:Generator_ColumnPropNameInTable="name_objectColumn" msprop:Generator_ColumnVarNameInTable="columnname_object" msprop:Generator_UserColumnName="name_object" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INN" msprop:Generator_ColumnPropNameInRow="INN" msprop:Generator_ColumnPropNameInTable="INNColumn" msprop:Generator_ColumnVarNameInTable="columnINN" msprop:Generator_UserColumnName="INN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vender_code" msprop:Generator_ColumnPropNameInRow="vender_code" msprop:Generator_ColumnPropNameInTable="vender_codeColumn" msprop:Generator_ColumnVarNameInTable="columnvender_code" msprop:Generator_UserColumnName="vender_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="color" msprop:Generator_ColumnPropNameInRow="color" msprop:Generator_ColumnPropNameInTable="colorColumn" msprop:Generator_ColumnVarNameInTable="columncolor" msprop:Generator_UserColumnName="color">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="amount_check" msprop:Generator_ColumnPropNameInRow="amount_check" msprop:Generator_ColumnPropNameInTable="amount_checkColumn" msprop:Generator_ColumnVarNameInTable="columnamount_check" msprop:Generator_UserColumnName="amount_check" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AllClientAndFactory" msprop:Generator_RowEvHandlerName="AllClientAndFactoryRowChangeEventHandler" msprop:Generator_RowDeletedName="AllClientAndFactoryRowDeleted" msprop:Generator_RowDeletingName="AllClientAndFactoryRowDeleting" msprop:Generator_RowEvArgName="AllClientAndFactoryRowChangeEvent" msprop:Generator_TablePropName="AllClientAndFactory" msprop:Generator_RowChangedName="AllClientAndFactoryRowChanged" msprop:Generator_RowChangingName="AllClientAndFactoryRowChanging" msprop:Generator_TableClassName="AllClientAndFactoryDataTable" msprop:Generator_RowClassName="AllClientAndFactoryRow" msprop:Generator_TableVarName="tableAllClientAndFactory" msprop:Generator_UserTableName="AllClientAndFactory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="type_object" msprop:Generator_ColumnPropNameInRow="type_object" msprop:Generator_ColumnPropNameInTable="type_objectColumn" msprop:Generator_ColumnVarNameInTable="columntype_object" msprop:Generator_UserColumnName="type_object">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_object" msprop:Generator_ColumnPropNameInRow="name_object" msprop:Generator_ColumnPropNameInTable="name_objectColumn" msprop:Generator_ColumnVarNameInTable="columnname_object" msprop:Generator_UserColumnName="name_object" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="code_object" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="code_object" msprop:Generator_ColumnPropNameInTable="code_objectColumn" msprop:Generator_ColumnVarNameInTable="columncode_object" msprop:Generator_UserColumnName="code_object" type="xs:int" />
+              <xs:element name="INN" msprop:Generator_ColumnPropNameInRow="INN" msprop:Generator_ColumnPropNameInTable="INNColumn" msprop:Generator_ColumnVarNameInTable="columnINN" msprop:Generator_UserColumnName="INN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="bank_account" msprop:Generator_ColumnPropNameInRow="bank_account" msprop:Generator_ColumnPropNameInTable="bank_accountColumn" msprop:Generator_ColumnVarNameInTable="columnbank_account" msprop:Generator_UserColumnName="bank_account" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="29" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="adress" msprop:Generator_ColumnPropNameInRow="adress" msprop:Generator_ColumnPropNameInTable="adressColumn" msprop:Generator_ColumnVarNameInTable="columnadress" msprop:Generator_UserColumnName="adress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="сontact_information" msprop:Generator_ColumnPropNameInRow="сontact_information" msprop:Generator_ColumnPropNameInTable="сontact_informationColumn" msprop:Generator_ColumnVarNameInTable="columnсontact_information" msprop:Generator_UserColumnName="сontact_information" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AllContractSale" msprop:Generator_RowEvHandlerName="AllContractSaleRowChangeEventHandler" msprop:Generator_RowDeletedName="AllContractSaleRowDeleted" msprop:Generator_RowDeletingName="AllContractSaleRowDeleting" msprop:Generator_RowEvArgName="AllContractSaleRowChangeEvent" msprop:Generator_TablePropName="AllContractSale" msprop:Generator_RowChangedName="AllContractSaleRowChanged" msprop:Generator_RowChangingName="AllContractSaleRowChanging" msprop:Generator_TableClassName="AllContractSaleDataTable" msprop:Generator_RowClassName="AllContractSaleRow" msprop:Generator_TableVarName="tableAllContractSale" msprop:Generator_UserTableName="AllContractSale">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="code_contract" msprop:Generator_ColumnPropNameInRow="code_contract" msprop:Generator_ColumnPropNameInTable="code_contractColumn" msprop:Generator_ColumnVarNameInTable="columncode_contract" msprop:Generator_UserColumnName="code_contract">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_object" msprop:Generator_ColumnPropNameInRow="name_object" msprop:Generator_ColumnPropNameInTable="name_objectColumn" msprop:Generator_ColumnVarNameInTable="columnname_object" msprop:Generator_UserColumnName="name_object" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="price_contract" msprop:Generator_ColumnPropNameInRow="price_contract" msprop:Generator_ColumnPropNameInTable="price_contractColumn" msprop:Generator_ColumnVarNameInTable="columnprice_contract" msprop:Generator_UserColumnName="price_contract" type="xs:decimal" minOccurs="0" />
+              <xs:element name="validity" msprop:Generator_ColumnPropNameInRow="validity" msprop:Generator_ColumnPropNameInTable="validityColumn" msprop:Generator_ColumnVarNameInTable="columnvalidity" msprop:Generator_UserColumnName="validity" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="subject_contract" msprop:Generator_ColumnPropNameInRow="subject_contract" msprop:Generator_ColumnPropNameInTable="subject_contractColumn" msprop:Generator_ColumnVarNameInTable="columnsubject_contract" msprop:Generator_UserColumnName="subject_contract" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AllExporterAndFactory" msprop:Generator_RowEvHandlerName="AllExporterAndFactoryRowChangeEventHandler" msprop:Generator_RowDeletedName="AllExporterAndFactoryRowDeleted" msprop:Generator_RowDeletingName="AllExporterAndFactoryRowDeleting" msprop:Generator_RowEvArgName="AllExporterAndFactoryRowChangeEvent" msprop:Generator_TablePropName="AllExporterAndFactory" msprop:Generator_RowChangedName="AllExporterAndFactoryRowChanged" msprop:Generator_RowChangingName="AllExporterAndFactoryRowChanging" msprop:Generator_TableClassName="AllExporterAndFactoryDataTable" msprop:Generator_RowClassName="AllExporterAndFactoryRow" msprop:Generator_TableVarName="tableAllExporterAndFactory" msprop:Generator_UserTableName="AllExporterAndFactory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="type_object" msprop:Generator_ColumnPropNameInRow="type_object" msprop:Generator_ColumnPropNameInTable="type_objectColumn" msprop:Generator_ColumnVarNameInTable="columntype_object" msprop:Generator_UserColumnName="type_object">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_object" msprop:Generator_ColumnPropNameInRow="name_object" msprop:Generator_ColumnPropNameInTable="name_objectColumn" msprop:Generator_ColumnVarNameInTable="columnname_object" msprop:Generator_UserColumnName="name_object" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="code_object" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="code_object" msprop:Generator_ColumnPropNameInTable="code_objectColumn" msprop:Generator_ColumnVarNameInTable="columncode_object" msprop:Generator_UserColumnName="code_object" type="xs:int" />
+              <xs:element name="INN" msprop:Generator_ColumnPropNameInRow="INN" msprop:Generator_ColumnPropNameInTable="INNColumn" msprop:Generator_ColumnVarNameInTable="columnINN" msprop:Generator_UserColumnName="INN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="bank_account" msprop:Generator_ColumnPropNameInRow="bank_account" msprop:Generator_ColumnPropNameInTable="bank_accountColumn" msprop:Generator_ColumnVarNameInTable="columnbank_account" msprop:Generator_UserColumnName="bank_account" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="29" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="adress" msprop:Generator_ColumnPropNameInRow="adress" msprop:Generator_ColumnPropNameInTable="adressColumn" msprop:Generator_ColumnVarNameInTable="columnadress" msprop:Generator_UserColumnName="adress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="сontact_information" msprop:Generator_ColumnPropNameInRow="сontact_information" msprop:Generator_ColumnPropNameInTable="сontact_informationColumn" msprop:Generator_ColumnVarNameInTable="columnсontact_information" msprop:Generator_UserColumnName="сontact_information" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AllInvoice" msprop:Generator_RowEvHandlerName="AllInvoiceRowChangeEventHandler" msprop:Generator_RowDeletedName="AllInvoiceRowDeleted" msprop:Generator_RowDeletingName="AllInvoiceRowDeleting" msprop:Generator_RowEvArgName="AllInvoiceRowChangeEvent" msprop:Generator_TablePropName="AllInvoice" msprop:Generator_RowChangedName="AllInvoiceRowChanged" msprop:Generator_RowChangingName="AllInvoiceRowChanging" msprop:Generator_TableClassName="AllInvoiceDataTable" msprop:Generator_RowClassName="AllInvoiceRow" msprop:Generator_TableVarName="tableAllInvoice" msprop:Generator_UserTableName="AllInvoice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="code_invoice" msprop:Generator_ColumnPropNameInRow="code_invoice" msprop:Generator_ColumnPropNameInTable="code_invoiceColumn" msprop:Generator_ColumnVarNameInTable="columncode_invoice" msprop:Generator_UserColumnName="code_invoice" type="xs:int" />
+              <xs:element name="row_invoice" msprop:Generator_ColumnPropNameInRow="row_invoice" msprop:Generator_ColumnPropNameInTable="row_invoiceColumn" msprop:Generator_ColumnVarNameInTable="columnrow_invoice" msprop:Generator_UserColumnName="row_invoice" type="xs:int" />
+              <xs:element name="UKTZED" msprop:Generator_ColumnPropNameInRow="UKTZED" msprop:Generator_ColumnPropNameInTable="UKTZEDColumn" msprop:Generator_ColumnVarNameInTable="columnUKTZED" msprop:Generator_UserColumnName="UKTZED" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vender_code" msprop:Generator_ColumnPropNameInRow="vender_code" msprop:Generator_ColumnPropNameInTable="vender_codeColumn" msprop:Generator_ColumnVarNameInTable="columnvender_code" msprop:Generator_UserColumnName="vender_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="color" msprop:Generator_ColumnPropNameInRow="color" msprop:Generator_ColumnPropNameInTable="colorColumn" msprop:Generator_ColumnVarNameInTable="columncolor" msprop:Generator_UserColumnName="color">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="amount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_UserColumnName="amount" type="xs:double" minOccurs="0" />
+              <xs:element name="price" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnPropNameInTable="priceColumn" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_UserColumnName="price" type="xs:decimal" minOccurs="0" />
+              <xs:element name="date_invoice" msprop:Generator_ColumnPropNameInRow="date_invoice" msprop:Generator_ColumnPropNameInTable="date_invoiceColumn" msprop:Generator_ColumnVarNameInTable="columndate_invoice" msprop:Generator_UserColumnName="date_invoice" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AllTextile" msprop:Generator_RowEvHandlerName="AllTextileRowChangeEventHandler" msprop:Generator_RowDeletedName="AllTextileRowDeleted" msprop:Generator_RowDeletingName="AllTextileRowDeleting" msprop:Generator_RowEvArgName="AllTextileRowChangeEvent" msprop:Generator_TablePropName="AllTextile" msprop:Generator_RowChangedName="AllTextileRowChanged" msprop:Generator_RowChangingName="AllTextileRowChanging" msprop:Generator_TableClassName="AllTextileDataTable" msprop:Generator_RowClassName="AllTextileRow" msprop:Generator_TableVarName="tableAllTextile" msprop:Generator_UserTableName="AllTextile">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="vender_code" msprop:Generator_ColumnPropNameInRow="vender_code" msprop:Generator_ColumnPropNameInTable="vender_codeColumn" msprop:Generator_ColumnVarNameInTable="columnvender_code" msprop:Generator_UserColumnName="vender_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="color" msprop:Generator_ColumnPropNameInRow="color" msprop:Generator_ColumnPropNameInTable="colorColumn" msprop:Generator_ColumnVarNameInTable="columncolor" msprop:Generator_UserColumnName="color">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="amount_storage" msprop:Generator_ColumnPropNameInRow="amount_storage" msprop:Generator_ColumnPropNameInTable="amount_storageColumn" msprop:Generator_ColumnVarNameInTable="columnamount_storage" msprop:Generator_UserColumnName="amount_storage" type="xs:double" minOccurs="0" />
+              <xs:element name="price_storage" msprop:Generator_ColumnPropNameInRow="price_storage" msprop:Generator_ColumnPropNameInTable="price_storageColumn" msprop:Generator_ColumnVarNameInTable="columnprice_storage" msprop:Generator_UserColumnName="price_storage" type="xs:decimal" minOccurs="0" />
+              <xs:element name="density" msprop:Generator_ColumnPropNameInRow="density" msprop:Generator_ColumnPropNameInTable="densityColumn" msprop:Generator_ColumnVarNameInTable="columndensity" msprop:Generator_UserColumnName="density" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="composition" msprop:Generator_ColumnPropNameInRow="composition" msprop:Generator_ColumnPropNameInTable="compositionColumn" msprop:Generator_ColumnVarNameInTable="columncomposition" msprop:Generator_UserColumnName="composition" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="country_manufacturer" msprop:Generator_ColumnPropNameInRow="country_manufacturer" msprop:Generator_ColumnPropNameInTable="country_manufacturerColumn" msprop:Generator_ColumnVarNameInTable="columncountry_manufacturer" msprop:Generator_UserColumnName="country_manufacturer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AllCheckFactures" />
+      <xs:field xpath="mstns:code_check_facture" />
+    </xs:unique>
+    <xs:unique name="AllClientAndFactory_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AllClientAndFactory" />
+      <xs:field xpath="mstns:code_object" />
+    </xs:unique>
+    <xs:unique name="AllContractSale_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AllContractSale" />
+      <xs:field xpath="mstns:code_contract" />
+    </xs:unique>
+    <xs:unique name="AllExporterAndFactory_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AllExporterAndFactory" />
+      <xs:field xpath="mstns:code_object" />
+    </xs:unique>
+    <xs:unique name="AllTextile_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AllTextile" />
+      <xs:field xpath="mstns:vender_code" />
+      <xs:field xpath="mstns:color" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

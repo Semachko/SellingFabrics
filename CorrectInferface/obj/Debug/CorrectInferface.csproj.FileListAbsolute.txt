@@ -1,0 +1,67 @@
+C:\_Project\OOP\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.csproj.AssemblyReference.cache
+C:\_Project\OOP\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.Properties.Resources.resources
+C:\_Project\OOP\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.csproj.GenerateResource.cache
+C:\_Project\OOP\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.csproj.CoreCompileInputs.cache
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\CorrectInferface.exe.config
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\CorrectInferface.exe
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\CorrectInferface.pdb
+C:\_Project\OOP\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.exe
+C:\_Project\OOP\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.pdb
+C:\_Project\OOP\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.LoginForm.resources
+C:\_Project\OOP\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.ObjectsForm.resources
+C:\_Project\OOP\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.PageObjectAdding.resources
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\_Project\OOP\CorrectInferface\CorrectInferface\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\_Project\OOP\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.csproj.CopyComplete
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\CorrectInferface.exe.config
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\CorrectInferface.exe
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\CorrectInferface.pdb
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.csproj.AssemblyReference.cache
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.csproj.SuggestedBindingRedirects.cache
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.LoginForm.resources
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.ObjectsForm.resources
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.PageObjectAdding.resources
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.Properties.Resources.resources
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.csproj.GenerateResource.cache
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.csproj.CoreCompileInputs.cache
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.csproj.CopyComplete
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.exe
+C:\Users\uspec\Desktop\CorrectInferface\CorrectInferface\obj\Debug\CorrectInferface.pdb
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\CorrectInferface.exe.config
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\CorrectInferface.exe
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\CorrectInferface.pdb
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\_Project\Selling fabrics\CorrectInferface\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.csproj.AssemblyReference.cache
+C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.LoginForm.resources
+C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.ObjectsForm.resources
+C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.PageObjectAdding.resources
+C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.Properties.Resources.resources
+C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.csproj.GenerateResource.cache
+C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.csproj.CoreCompileInputs.cache
+C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.csproj.CopyComplete
+C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.exe
+C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.pdb
