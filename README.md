@@ -1,10 +1,22 @@
 # SellingFabrics
 
 Date of creation - 05.2023
+
 ____
+
 ### SellingFabrics - a desktop application for employees of an enterprise for the purchase and sale of fabrics. 
 The application allows you to track and declare the purchase of fabrics, their correct transportation, storage and sale with the preparation of documents for the tax authorities.
+
 ____
+
+## Technologies and frameworks used:
+- C#, WinForms
+- SSMS (SQL Server Management Studio)
+- ADO.NET, npgsql
+- ReportView
+
+____
+
 # This includes: 
 
 # **Authorization**
