@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace CorrectInferface
 {
-    partial class ObjectsForm
+    partial class MainWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -88,7 +88,6 @@ namespace CorrectInferface
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.pageObjectAdding4 = new CorrectInferface.PageObjectAdding();
             this.CreateFactureButton = new System.Windows.Forms.Button();
             this.codClient = new System.Windows.Forms.ComboBox();
             this.codePidp1 = new System.Windows.Forms.ComboBox();
@@ -100,6 +99,7 @@ namespace CorrectInferface
             this.venderFact = new System.Windows.Forms.ComboBox();
             this.AddNewClient = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pageObjectAdding4 = new CorrectInferface.PageObjectAdding();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.colirFact = new System.Windows.Forms.ComboBox();
@@ -736,7 +736,6 @@ namespace CorrectInferface
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.pageObjectAdding4);
             this.tabPage4.Controls.Add(this.CreateFactureButton);
             this.tabPage4.Controls.Add(this.codClient);
             this.tabPage4.Controls.Add(this.codePidp1);
@@ -757,14 +756,6 @@ namespace CorrectInferface
             this.tabPage4.TabIndex = 4;
             this.tabPage4.Text = "Рахунок-фактура";
             this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // pageObjectAdding4
-            // 
-            this.pageObjectAdding4.Location = new System.Drawing.Point(-3, 0);
-            this.pageObjectAdding4.Name = "pageObjectAdding4";
-            this.pageObjectAdding4.Size = new System.Drawing.Size(946, 468);
-            this.pageObjectAdding4.TabIndex = 47;
-            this.pageObjectAdding4.Visible = false;
             // 
             // CreateFactureButton
             // 
@@ -871,12 +862,21 @@ namespace CorrectInferface
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
+            this.panel2.Controls.Add(this.pageObjectAdding4);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(947, 97);
             this.panel2.TabIndex = 30;
+            // 
+            // pageObjectAdding4
+            // 
+            this.pageObjectAdding4.Location = new System.Drawing.Point(0, 0);
+            this.pageObjectAdding4.Name = "pageObjectAdding4";
+            this.pageObjectAdding4.Size = new System.Drawing.Size(946, 468);
+            this.pageObjectAdding4.TabIndex = 47;
+            this.pageObjectAdding4.Visible = false;
             // 
             // pictureBox1
             // 
@@ -1097,14 +1097,14 @@ namespace CorrectInferface
             this.reportViewer1.Size = new System.Drawing.Size(930, 380);
             this.reportViewer1.TabIndex = 0;
             // 
-            // ObjectsForm
+            // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(951, 532);
             this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.tabControl1);
-            this.Name = "ObjectsForm";
+            this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "АРМ робітника підприємства по продажу-купівлі тканин";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ObjectsForm_FormClosing);

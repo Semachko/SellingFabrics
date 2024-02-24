@@ -7,6 +7,11 @@ namespace CorrectInferface
 {
     public partial class PageObjectAdding : UserControl
     {
+        //
+        //
+        // Window to add new Exporter/Client
+        //
+        //
         public PageObjectAdding()
         {
             InitializeComponent();
@@ -24,10 +29,11 @@ namespace CorrectInferface
             BringToFront();
         }
 
+        //
+        // Adding new Exporter/Client to database
         private void button2_Click(object sender, EventArgs e)
         {
-            try
-            {
+            try {
                 using (SqlConnection connection = new SqlConnection(ConnectString.connectionString))
                 {
                     string sql = $"INSERT INTO object_ (INN,name_object,bank_account,adress,сontact_information,type_object) VALUES (@INN,@name_object,@bank_account,@adress,@сontact_information,@type_object)";
@@ -47,29 +53,28 @@ namespace CorrectInferface
                         command.ExecuteNonQuery();
                         MessageBox.Show("Новий об'єкт успішно додано.");
                     }
-
                 }
-
             }
+
             catch (Exception ex) { MessageBox.Show(ex.Message, "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+            //
+            // Refreshing comboBoxes in MainWindow
             if (ConnectString.login == "Director")
             {
-                ObjectsForm objectsForm = (ObjectsForm)Application.OpenForms["ObjectsForm"];
+                MainWindow objectsForm = (MainWindow)Application.OpenForms["ObjectsForm"];
                 objectsForm.FillCodesDirector();
             }
             if (ConnectString.login == "Accountant")
             {
-                ObjectsForm objectsForm = (ObjectsForm)Application.OpenForms["ObjectsForm"];
+                MainWindow objectsForm = (MainWindow)Application.OpenForms["ObjectsForm"];
                 objectsForm.FillCodesAccountant();
             }
             if (ConnectString.login == "sa")
             {
-                ObjectsForm objectsForm = (ObjectsForm)Application.OpenForms["ObjectsForm"];
+                MainWindow objectsForm = (MainWindow)Application.OpenForms["ObjectsForm"];
                 objectsForm.FillCodesAccountant();
                 objectsForm.FillCodesDirector();
             }
-
         }
-
     }
 }

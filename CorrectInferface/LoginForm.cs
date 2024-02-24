@@ -19,20 +19,21 @@ namespace CorrectInferface
         {
             try
             {
-                string connectionFile = getConnectionFile();
-                ConnectString.connectionString = getConnectionString(connectionFile);
+                // Connecting to database using string in Wizard`s file
+                ConnectString.connectionString = getConnectionString();
                 ConnectString.login = loginField.Text;
 
                 ConnectString.connectionString = ConnectString.connectionString.Remove(0, ConnectString.connectionString.IndexOf(";", 0) + 1);
 
+                // Inserting login and password values into connection string
                 ConnectString.connectionString = ConnectString.connectionString.Replace("User ID=sa", "User ID=" + loginField.Text);
                 ConnectString.connectionString = ConnectString.connectionString.Replace("Password=12345", "Password=" + passField.Text);
 
                 SqlConnection connection = new SqlConnection(ConnectString.connectionString);
 
-                //connection.Open();
+                //connection.Open();    // Uncomment if you have database
                 Hide();
-                ObjectsForm objectsformm = new ObjectsForm();
+                MainWindow objectsformm = new MainWindow();
                 objectsformm.Show();
             }
 
@@ -41,12 +42,13 @@ namespace CorrectInferface
                 MessageBox.Show(ex.Message, "Помилка входу", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        public static string getConnectionFile()
+        
+        //
+        // Getting connection string
+        public static string getConnectionString()
         {
-            return System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\DBConnectionString";
-        }
-        public static string getConnectionString(string connectionFile)
-        {
+            // Reading database path from file
+            string connectionFile = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\DBConnectionString";
             StreamReader rdr = new StreamReader(connectionFile);
             string connectionString = (rdr.ReadToEnd());
             rdr.Close();

@@ -65,3 +65,25 @@ C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.csproj.C
 C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.csproj.CopyComplete
 C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.exe
 C:\_Project\Selling fabrics\CorrectInferface\obj\Debug\CorrectInferface.pdb
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\CorrectInferface.exe.config
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\CorrectInferface.exe
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\CorrectInferface.pdb
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\obj\Debug\CorrectInferface.csproj.AssemblyReference.cache
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\obj\Debug\CorrectInferface.LoginForm.resources
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\obj\Debug\CorrectInferface.PageObjectAdding.resources
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\obj\Debug\CorrectInferface.Properties.Resources.resources
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\obj\Debug\CorrectInferface.csproj.GenerateResource.cache
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\obj\Debug\CorrectInferface.csproj.CoreCompileInputs.cache
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\obj\Debug\CorrectInferface.csproj.CopyComplete
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\obj\Debug\CorrectInferface.exe
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\obj\Debug\CorrectInferface.pdb
+C:\_Project\WinFroms\SellingFabrics\CorrectInferface\obj\Debug\CorrectInferface.MainWindow.resources
